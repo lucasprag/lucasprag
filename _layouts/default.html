@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-    <div class="content">
+  <body class="border border-danger">
+    <div class="container">
+      {% include header.html %}
+
+      <div class="row mt-5">
+        <div class="col-6">
+          {% include experience.html %}
+        </div>
+
+        <div class="col-6">
+          {% include projects.html %}
+          {% include education.html %}
+          {% include links.html %}
+        </div>
+      </div>
+
       {{ content }}
     </div>
 
