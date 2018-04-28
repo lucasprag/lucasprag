@@ -6,3 +6,8 @@ a:hover {
   color: darken($red, 5);
   text-decoration: none;
 }
+
+.body {
+  border-top: 5px solid $red;
+  border-bottom: 5px solid $red;
+}
