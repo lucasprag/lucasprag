@@ -1,13 +1,18 @@
 a {
-  color: $red;
+  color: $primary;
 }
 
 a:hover {
-  color: darken($red, 5);
+  color: darken($primary, 15);
   text-decoration: none;
 }
 
 .body {
-  border-top: 5px solid $red;
-  border-bottom: 5px solid $red;
+  border-top: 8px solid $primary;
+  border-bottom: 8px solid $primary;
+}
+
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Saira Extra,Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
