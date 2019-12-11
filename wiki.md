@@ -33,6 +33,7 @@ menus:
 * [Plataformatec](http://blog.plataformatec.com.br/category/english/) -- elixir, ruby, agile
 * [Evil Martians' chronicles](https://evilmartians.com/chronicles) -- ruby, rails, graphql, docker
 * [Arkency's blog](https://blog.arkency.com) -- ruby, rails, random posts about problems a consulting company has to go through
+* [Nick Grossman](https://www.nickgrossman.is/) -- crypto economy, leadership, entrepreneurship
 
 ## great ruby gems for any project
 
