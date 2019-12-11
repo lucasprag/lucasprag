@@ -1,5 +1,6 @@
 ---
-title: My editor journey: sublime, vim, emacs, vscode
+title: >-
+  My editor journey: sublime, vim, emacs, vscode
 date: 2018-08-04
 excerpt: >-
   How I've used sublime text, vim, emacs and vscode over my career as a software

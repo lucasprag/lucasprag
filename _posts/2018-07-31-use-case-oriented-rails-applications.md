@@ -1,6 +1,6 @@
 ---
 title: Use-case oriented rails applications
-date: 2018-07-31'
+date: 2018-07-31
 excerpt: >-
   I will bring here an approachable solution for building rails applications
   using some fundamentals of the so-called clean architecture. But, what is it?
