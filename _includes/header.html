@@ -1,0 +1,14 @@
+<header id='header' class='header container'>
+  <a class="logo" href="/">
+    lucas arantes
+  </a>
+  
+  <nav>
+    {% for item in site.menus.main %}
+    <a class="nav-link{% if page.url == item.url %} active{% endif %}"
+       href="{% assign expr_1 = item.url | starts_with: '#' %}{% if expr_1 %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">
+      {{ item.title }}
+    </a>
+    {% endfor %}
+  </nav>
+</header>

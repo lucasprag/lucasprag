@@ -1,0 +1,47 @@
+// responsive breakpoints
+$mobile: 480px;
+$tabletMax: 768px;
+$tablet: 768px;
+
+
+:root {
+  --page-color: #424242;
+  --page-bg-color: #ffffff;
+
+  --logo-color: #424242;
+
+  --date-color: #ffffff;
+  --date-bg-color: #377dc4;
+
+  --tag-color: #ffffff;
+  --tag-bg-color: #a1a1a1;
+
+  --link-color: #3d92e3;
+  --link-color-hover: #377dc4;
+
+  --title-color: #424242;
+  --title-color-hover: #365e8a;
+
+  --blockquote-border: #eaeaea;
+}
+
+[data-theme="dark"] {
+  --page-color: #eaeaea;
+  --page-bg-color: #181c21;
+
+  --logo-color: #eaeaea;
+
+  --date-color: #ffffff;
+  --date-bg-color: #377dc4;
+
+  --tag-color: #ffffff;
+  --tag-bg-color: #424242;
+
+  --link-color: #3d92e3;
+  --link-color-hover: #377dc4;
+
+  --title-color: #eaeaea;
+  --title-color-hover: #bdbdbd;
+
+  --blockquote-border: #2e2e2e;
+}

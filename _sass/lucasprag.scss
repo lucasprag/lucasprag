@@ -1,0 +1,71 @@
+@import './variables';
+@import './header';
+@import './topbar';
+@import './posts';
+@import './post';
+@import './page';
+@import './footer';
+@import './theme-switch';
+@import './monokai';
+@import './github';
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background: var(--page-bg-color);
+  color: var(--page-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alatsi', sans-serif;
+}
+
+.highlight pre {
+  padding: 10px 20px 10px 20px;
+}
+
+.category-icon {
+  max-width: 50px;
+}
+
+.fa-category-icon {
+  width: 50px;
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+  text-decoration: none;
+}
+
+.highlight {
+  padding: 5px 5px 1px 5px;
+  margin-bottom: 12px;
+}
+
+.badge-tag {
+  color: var(--tag-color);
+  background-color: var(--tag-bg-color);
+}
+
+.badge-date {
+  font-size: 16px;
+  color: var(--date-color);
+  background-color: var(--date-bg-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 8px solid var(--blockquote-border);
+  padding-left: 14px;
+}
