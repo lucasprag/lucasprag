@@ -158,5 +158,3 @@ See more on `:help expand`
 
 Functions, variables, commands, auto commands, `execute` and `expand` are very useful to customize your vim. I hope you liked it. Feel free to dig into [my configs](https://github.com/lucasprag/vimlociraptor) and I'd love to see yours if you leave a link in the comments bellow. =)
 
-
-2019-07-26-introduction-on-viml-for-vimmers.md
