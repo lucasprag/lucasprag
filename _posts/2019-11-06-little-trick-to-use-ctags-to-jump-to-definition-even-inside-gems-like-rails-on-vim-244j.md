@@ -1,18 +1,11 @@
 ---
-title: >-
-  Little trick to use ctags to jump to definition even inside gems like Rails on
-  vim
-date: '2019-11-06T01:40:52.436Z'
+title: Little trick to use ctags to jump to definition even inside gems like Rails on vim
+date: 2019-11-06
 excerpt: ''
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 4
 tags:
   - vim
   - rails
   - neovim
-canonical_url: >-
-  https://grokblog.io/posts/little-trick-to-use-ctags-to-jump-to-definition-even-inside-gems-like-rails-on-vim-244j/
 layout: post
 ---
 If you don't know what is ctags

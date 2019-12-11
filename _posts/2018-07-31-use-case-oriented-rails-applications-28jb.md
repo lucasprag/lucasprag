@@ -1,16 +1,12 @@
 ---
 title: Use-case oriented rails applications
-date: '2018-07-31T14:54:27.095Z'
+date: 2018-07-31'
 excerpt: >-
   I will bring here an approachable solution for building rails applications
   using some fundamentals of the so-called clean architecture. But, what is it?
-thumb_img_path: null
-comments_count: 4
-positive_reactions_count: 16
 tags:
   - ruby
   - rails
-canonical_url: 'https://dev.to/lucasprag/use-case-oriented-rails-applications-28jb'
 layout: post
 ---
 

@@ -1,17 +1,13 @@
 ---
-title: 'My editor journey: sublime, vim, emacs, vscode'
-date: '2018-08-04T17:55:16.540Z'
+title: My editor journey: sublime, vim, emacs, vscode
+date: 2018-08-04
 excerpt: >-
   How I've used sublime text, vim, emacs and vscode over my career as a software
   developer.
-thumb_img_path: null
-comments_count: 52
-positive_reactions_count: 151
 tags:
   - vim
   - emacs
   - vscode
-canonical_url: 'https://dev.to/lucasprag/my-editor-journey-sublime-vim-emacs-vscode-19k0'
 layout: post
 ---
 
