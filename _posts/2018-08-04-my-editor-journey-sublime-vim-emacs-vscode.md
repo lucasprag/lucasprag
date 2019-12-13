@@ -32,7 +32,7 @@ One day I heard about neovim, not sure exactly why I switched to it, but take a 
 
 Wait what? Only one contributor on the vim repository? How only one person could have done that? Checking the pull request list I saw that the author applies changes from other people as it was his changes. Ok, I didn't liked that, so I changed to neovim which gives credit for people when they contribute.
 
-UPDATE: I agree that my survey is too shallow. My see [this comment](https://dev.to/heast/comment/4gk4). But I still don't like that.
+UPDATE: I agree that my survey is too shallow. See [this comment](https://dev.to/heast/comment/4gk4). But I still don't like that.
 
 ## nvim + tmux
 At that time people was talking about {% raw %}`tmux`{% endraw %} which is a terminal multiplexer so you could split your terminal and have tabs and customize everything from shortcuts to how tmux looks like for example adding useful info to your status bar. I tried and I liked. Since I was using nvim in the terminal it worked very well and I even found some plugins to integrate them smoothly. Here is how it looks like:
