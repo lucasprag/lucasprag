@@ -44,3 +44,5 @@ If you are in Kitchener/Waterloo I strongly recommend you to attend a few times 
 <center>
 <h3>2020 is going to be great! 💎</h3>
 </center>
+
+*[This post is also available on DEV.](https://dev.to/lucasprag/a-year-of-ruby-meetups-in-kitchener-5g72)*
