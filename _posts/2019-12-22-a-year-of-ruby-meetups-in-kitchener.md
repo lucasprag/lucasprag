@@ -26,7 +26,7 @@ I missed the talk about Rails and Docker, that was a shame, I wish I could have 
 
 In the [Career, Business and Software Development](https://www.meetup.com/kw-ruby-on-rails/events/259429067/) talk by [Martin Basiri](https://twitter.com/martinbasiri) I've learned one thing or two about the business side of tech companies. He also talked about his first endeavor which was earphones that made it easier to untangle their cable - 4 seconds less than others - and how it failed when wireless earphones got popular.
 
-I was quite inspiring to see so many students and developers asking interesting questions in the [Building a Career in Technology](https://www.meetup.com/kw-ruby-on-rails/events/266616653/) talk by [Rob Sciuk](https://www.linkedin.com/in/robsciuk/) and [Ralph Janke](https://www.linkedin.com/in/ralphjanke/).
+It was quite inspiring to see so many students and developers asking interesting questions in the [Building a Career in Technology](https://www.meetup.com/kw-ruby-on-rails/events/266616653/) talk by [Rob Sciuk](https://www.linkedin.com/in/robsciuk/) and [Ralph Janke](https://www.linkedin.com/in/ralphjanke/).
 
 Not all meetups are very productive, but the last one of 2019 was really special and this is why:
 - I talked to someone who was new to Ruby, did the classic blog tutorial
