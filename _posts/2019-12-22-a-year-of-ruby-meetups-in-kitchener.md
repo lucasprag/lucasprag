@@ -1,7 +1,7 @@
 ---
 title: A year of ruby meetups in Kitchener
 date: 2019-12-22
-excerpt: "If you worked with a large database you know that you can't just run an alter table to add a column with a default value, maybe you tried it and it failed -- like me awhile ago \U0001F915 -- but what if you really need to do that? That's what I'm about to tell you in these four simple steps."
+excerpt: "Contributed to Rails and other open source projects, learned great things on talks, helped others with their projects and more!"
 tags:
   - ruby
   - meetup
