@@ -33,7 +33,9 @@ menus:
 * [Plataformatec](http://blog.plataformatec.com.br/category/english/) -- elixir, ruby, agile
 * [Evil Martians' chronicles](https://evilmartians.com/chronicles) -- ruby, rails, graphql, docker
 * [Arkency's blog](https://blog.arkency.com) -- ruby, rails, random posts about problems a consulting company has to go through
-* [Nick Grossman](https://www.nickgrossman.is/) -- crypto economy, leadership, entrepreneurship
+* [solnic.codes](https://solnic.codes/) -- ruby, architecture, frameworks, dry gems
+* [Schneems](https://www.schneems.com/) -- ruby, postgresql, day-to-day activities on a dev
+* [Martin Fowler](https://martinfowler.com/) -- agile, architecture, management
 
 ## great ruby gems for any project
 
