@@ -2,14 +2,14 @@
 title: What is software architecture?
 date: 2020-02-19
 excerpt:
-  I've been reading a lot about software architecture lately, mostly George Fairbanks, Piotr Solnica, David Bryant Copeland, Martin Fowler and Michael Keeling, here are some lessons I learned so far.
+  I've been reading a lot about software architecture lately, mostly George Fairbanks, Piotr Solnica, David Bryant Copeland, Martin Fowler and Michael Keeling, but what is it?
 tags:
   - architecture
   - design
 layout: post
 ---
 
-I've been reading a lot about software architecture lately, mostly [George Fairbanks](https://www.georgefairbanks.com/), [Piotr Solnica](https://solnic.codes/), [David Bryant Copeland](https://naildrivin5.com/), [Martin Fowler](https://martinfowler.com/architecture/) and [Michael Keeling](https://www.neverletdown.net/), here are some lessons I learned so far.
+I've been reading a lot about software architecture lately, mostly [George Fairbanks](https://www.georgefairbanks.com/), [Piotr Solnica](https://solnic.codes/), [David Bryant Copeland](https://naildrivin5.com/), [Martin Fowler](https://martinfowler.com/architecture/) and [Michael Keeling](https://www.neverletdown.net/), but what is it?
 
 ### What is software architecture?
 
