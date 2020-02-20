@@ -28,4 +28,4 @@ But if you don't make the inner walls easy to change, this decision is not easy 
 
 I wonder where my understanding of software architecture is going to go as I read and study more on the subject.
 
-If you are also interested on the subject, liked this example or think I'm crazy and totally wrong, please reach out on twitter or in the comments bellow.
+If you are also interested on the subject, liked this example or think I'm crazy and totally wrong, please reach out on twitter or in the comments below.
