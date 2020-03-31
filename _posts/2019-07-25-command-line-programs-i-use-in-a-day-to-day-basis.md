@@ -2,7 +2,8 @@
 layout: post
 title:  Command line programs I use in a day-to-day basis
 date:   2019-07-25
-tags: [terminal]
+tags:
+- terminal
 excerpt: xargs and awk are very useful when grepping and combining commands, but Alacritty is very impressive, if you run heavy terminal program I'd give it a try.
 ---
 

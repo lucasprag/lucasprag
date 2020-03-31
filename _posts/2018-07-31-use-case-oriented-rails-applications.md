@@ -5,7 +5,6 @@ excerpt: >-
   I will bring here an approachable solution for building rails applications
   using some fundamentals of the so-called clean architecture. But, what is it?
 tags:
-  - ruby
   - rails
 layout: post
 ---
@@ -199,4 +198,4 @@ script.onload = function() {
     window.iFrameResize({}, '.liquidTag');
 };
 parent.appendChild(script);
-</script>    
+</script>

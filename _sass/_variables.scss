@@ -8,7 +8,7 @@ $tablet: 768px;
   --page-color: #424242;
   --page-bg-color: #ffffff;
 
-  --logo-color: #424242;
+  --logo-color: #5f5f5f;
 
   --date-color: #ffffff;
   --date-bg-color: #377dc4;
@@ -19,14 +19,14 @@ $tablet: 768px;
   --link-color: #3d92e3;
   --link-color-hover: #377dc4;
 
-  --title-color: #424242;
+  --title-color: #5f5f5f;
   --title-color-hover: #365e8a;
 
   --blockquote-border: #eaeaea;
 }
 
 [data-theme="dark"] {
-  --page-color: #eaeaea;
+  --page-color: #cccccc;
   --page-bg-color: #181c21;
 
   --logo-color: #eaeaea;
@@ -35,7 +35,7 @@ $tablet: 768px;
   --date-bg-color: #377dc4;
 
   --tag-color: #ffffff;
-  --tag-bg-color: #424242;
+  --tag-bg-color: #5f5f5f;
 
   --link-color: #3d92e3;
   --link-color-hover: #377dc4;

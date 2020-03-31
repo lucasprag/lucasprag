@@ -2,13 +2,13 @@
   <a class="logo" href="/">
     lucas arantes
   </a>
-  
+
   <nav>
     {% for item in site.pages %}
 
-    {% if item.title == "Home" %}
+    {% unless item.add_to_menu %}
     {% continue %}
-    {% endif %}
+    {% endunless %}
 
     {% if item.title %}
     <a class="nav-link{% if page.url == item.url %} active{% endif %}"

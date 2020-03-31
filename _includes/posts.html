@@ -1,5 +1,9 @@
 <section class="posts">
+  {% if include.tag %}
+  {% assign postsByYearMonth = site.posts | where: "tags",include.tag | group_by_exp:"post", "post.date | date: '%B / %Y'"  %}
+  {% else %}
   {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B / %Y'"  %}
+  {% endif %}
 
   {% for yearMonth in postsByYearMonth %}
 

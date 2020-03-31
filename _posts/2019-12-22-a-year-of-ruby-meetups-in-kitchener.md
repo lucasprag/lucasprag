@@ -3,8 +3,7 @@ title: A year of ruby meetups in Kitchener
 date: 2019-12-22
 excerpt: "Contributed to Rails and other open source projects, learned great things on talks, helped others with their projects and more!"
 tags:
-  - ruby
-  - meetup
+  - community
 layout: post
 ---
 

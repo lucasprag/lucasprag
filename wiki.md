@@ -1,13 +1,8 @@
 ---
 title: Wiki
 layout: page
-
-menus:
-  main:
-    title: Wiki
-    weight: 2
+add_to_menu: true
 ---
-
 
 ## Books
 
@@ -18,15 +13,15 @@ menus:
 * [I love Ruby](https://i-love-ruby.gitlab.io/) by Karthikeyan A K -- amazing book about ruby
 * [Design Patterns in Ruby](https://bogdanvlviv.com/posts/ruby/patterns/design-patterns-in-ruby.html) by Bogdan Denkovych
 * [The Rails 5 Way](https://leanpub.com/tr5w) by Obie Fernandez and Kevin Faustino
+* [Design It!](https://pragprog.com/book/mkdsa/design-it) by Michael Keeling
 
 
-## Blogs
+## Personal Blogs
 
 * [Nando Vieira](https://nandovieira.com/) -- ruby, rails, javascript, css, postgresql
 * [A geek with a hat](https://swizec.com/blog/) -- react, career, productivity, mastery
 * [Julia Evans](https://jvns.ca/) -- everything from data structures to vim sessions, plus she adds drawings to her posts to better explain the content
 * [pgDash](https://pgdash.io/blog/index.html) -- postgresql, diagnostics, scale, sql, news
-* [Oleh's blog](https://www.ludyna.com/oleh/posts) -- AI, DCI, OOP, software architecture
 * [Eviltrout](https://eviltrout.com/) -- ruby, emberjs, discourse
 * [Thoughtbot's upcase](https://thoughtbot.com/upcase/practice) -- a TON of good content, ruby, rails, vim, tmux, testing, design, advanced rails
 * [no.lol](https://www.no.lol/) -- elixir, emberjs, being a techlead

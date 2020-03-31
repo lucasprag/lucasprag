@@ -4,6 +4,7 @@
 @import './post';
 @import './page';
 @import './footer';
+@import './sidebar';
 @import './theme-switch';
 @import './monokai';
 @import './github';
@@ -17,6 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Alatsi', sans-serif;
+  color: var(--title-color);
 }
 
 .highlight pre {

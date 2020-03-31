@@ -7,7 +7,6 @@ excerpt: >-
   developer.
 tags:
   - vim
-  - emacs
   - vscode
 layout: post
 ---
@@ -112,4 +111,4 @@ script.onload = function() {
     window.iFrameResize({}, '.liquidTag');
 };
 parent.appendChild(script);
-</script>    
+</script>

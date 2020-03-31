@@ -1,0 +1,25 @@
+<section class="sidebar">
+  <span class="badge badge-date py-2 px-3 mb-3">
+    Topics
+  </span>
+
+  <div class="topic list-group">
+
+    {% assign sorted_tags = (site.tags | sort:0) %}
+    {% for tag in sorted_tags %}
+
+    {% assign tag_title = tag[0] | capitalize %}
+    {% capture tag_url %}/{{tag[0]}}/{% endcapture %}
+    {% assign tag_posts_count = tag[1].size %}
+
+    <a href="{{tag_url}}"
+      class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% if page.url == tag_url %}active{% endif %}">
+      {{ tag_title }}
+      <span class="badge badge-primary badge-pill">
+        {{ tag_posts_count }}
+      </span>
+    </a>
+
+    {% endfor %}
+  </div>
+</section>

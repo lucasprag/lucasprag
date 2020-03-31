@@ -10,7 +10,7 @@ layout: post
 
 I'm reading [Design It From Programmer to Software Architect](https://pragprog.com/book/mkdsa/design-it) by Michael Keeling and I find it incredibly hard to read, not because the book is bad, but because it's so interesting and it fits perfectly with many situations I've lived in the past that I keep remembering situations at work and connecting the dots.
 
-## Architecturally significant requirements
+#### Architecturally significant requirements
 
 Architecturally significant requirements are requirements that directly defines the architecture.
 
@@ -24,7 +24,7 @@ See that this functional requirement is significant for the architecture, but fo
 
 Finding architecturally significant requirements is hard because they are not always explicit and stakesholders are not always aware of how much some requirements can change the architecture of a system. They are best found during discussions before implementing features since they can change the overall architecture of a system.
 
-## Constraints
+#### Constraints
 
 Constraints are unchangeable design decisions, usually given, sometimes chosen. They can make our lives easier because they can simplify our problem and limit our architecture, but they can also make our lives hell doing the opposite.
 
@@ -40,5 +40,5 @@ The same happens to business constraints like deadlines or how far should we imp
 
 ---
 
-This is quite interesting. Being more aware of this concepts can help us reveal them during discussions and effectively communicating the impact of a constraint or a requirement can help all stakesholders better evaluate its value.
+Being more aware of this concepts can help us reveal them during discussions and effectively communicating the impact of a constraint or a requirement can help all stakesholders better evaluate its value.
 

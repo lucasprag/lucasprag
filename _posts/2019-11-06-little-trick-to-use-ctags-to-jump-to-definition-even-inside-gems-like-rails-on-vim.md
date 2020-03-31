@@ -1,11 +1,9 @@
 ---
 title: Little trick to use ctags to jump to definition even inside gems like Rails on vim
 date: 2019-11-06
-excerpt: ''
+excerpt: This is really helpful especially if you need to debug other people's gems or your own. 👌
 tags:
   - vim
-  - rails
-  - neovim
 layout: post
 ---
 If you don't know what is ctags
@@ -72,4 +70,4 @@ script.onload = function() {
     window.iFrameResize({}, '.liquidTag');
 };
 parent.appendChild(script);
-</script>    
+</script>
