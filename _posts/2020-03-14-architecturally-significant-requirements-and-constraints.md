@@ -1,5 +1,5 @@
 ---
-title: Be aware of this type of requirement and constraints
+title: Architecturally significant requirements and constraints
 date: 2020-03-14
 excerpt:
   I'm reading Design It by Michael Keeling and I came across the concepts of architecturally significant requirement and technical and business constraints. It's nice to understand them a bit better because it helps us focus on what it is important when discussing a feature.
