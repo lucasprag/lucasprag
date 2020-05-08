@@ -30,7 +30,7 @@ It was quite inspiring to see so many students and developers asking interesting
 Not all meetups are very productive, but the last one of 2019 was really special and this is why:
 - I talked to someone who was new to Ruby, did the classic blog tutorial
 - I did open source by working on an [issue](https://github.com/kwruby/kwruby.ca/issues/35) to automate the deployment of the [KWRuby's website](http://kwruby.ca/).
-- we talked about [Elixir](https://elixir-lang.org/), pattern matching and [Declan](https://twitter.com/dwhelan/) gave us a lesson -- almost a talk by itself -- on aspects of the Erlang's OTP
+- we talked about [Elixir](https://elixir-lang.org/), pattern matching and [Declan](https://twitter.com/dwhelan/) gave us a lesson -- almost a talk by itself -- on aspects of [actor model](https://en.wikipedia.org/wiki/Actor_model) implemented in Erlang
 - we talked about new things comming up to Ruby like pattern matching on ruby 2.7
 - and there were lots of Pizza 🍕
 
