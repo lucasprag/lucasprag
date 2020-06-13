@@ -2,18 +2,16 @@
 title:  How to reload your vim configs without exiting vim
 date:   2019-07-26
 excerpt: "This can be very useful, I'm going to show how to reload your vim configs anytime you save them or using a command and a map."
-tags: 
+tags:
   - vim
 layout: post
 ---
 
 <img src="/assets/images/posts/reloaded.png" alt="neovim showing reloaded" class="image" />
 
-**Requirements**
+### Make your configs reloadable
 
-Your vim configs need to be reloadable for this do work.
-
-Nothing major, just make sure you use `!` on your commands and functions.
+Add `!` on your commands and functions like this:
 
 ```vim
 function! ToggleLineNumbers()
@@ -29,32 +27,33 @@ command! GoToDefinitionUsingCTags execute ':tag ' . expand("<cword>")
 
 Using `!` means that you are overwriting the function/commands if it is already loaded.
 
-**Reloading vim configs automatically when you save them**
+### Option #1: Auto command
 
-What we need is to source our vim configs every time vim finishes writing a buffer into a file.
+When using an auto command, vim is going to source -- or reload -- your vim configs every time you save them.
 
 ```vim
-" BufWritePost gets triggered when after
-" writing the whole buffer to a file
+" the BufWritePost event gets triggered after writing buffers to files
 autocmd! BufWritePost *.vim* so $MYVIMRC
 ```
 
-More on auto commands and more here: [Introduction to vimL for vimmers](/vim/2019/07/26/introduction-on-viml-for-vimmers.html)
+`$MYVIMRC` is the path to your `vimrc` file.
 
+More on auto commands: [Introduction to vimL for vimmers](/vim/2019/07/26/introduction-on-viml-for-vimmers.html)
 
-**Reloading vim configs using a command**
+### Option #2: Command and map
 
-Would be nice if we could give the user (us) some feedback that the configs were reloaded?
-
-For that we just need to create a command to source our `$VIMRC` and print something to the command line:
+When using a command, vim is also going to source your configs, but only when you call the command.
 
 ```vim
-" reload vim configuration (aka vimrc)
 command! ReloadVimConfigs so $MYVIMRC
   \| echo 'configs reloaded!'
 ```
 
-We can also make a map for that, let's `CTRL + r` ?
+After adding it to your vimrc, you need to type `:ReloadVimConfigs`.
+
+I prefer this option because I have more control over __when__ my configs are reloaded.
+
+You can create a map for that:
 
 ```vim
 map <C-r> :ReloadVimConfig<CR>

@@ -1,5 +1,5 @@
 ---
-title: Little trick to use ctags to jump to definition even inside gems like Rails on vim
+title: Trick to use ctags to jump to definition even inside ruby gems
 date: 2019-11-06
 excerpt: This is really helpful especially if you need to debug other people's gems or your own. 👌
 tags:
