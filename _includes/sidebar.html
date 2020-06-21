@@ -1,10 +1,9 @@
 <section class="sidebar">
-  <span class="badge badge-date py-2 px-3 mb-3">
+  <span class="badge badge-topic py-2 px-3 mb-3">
     Topics
   </span>
 
-  <div class="topic list-group">
-
+  <div class="list-group">
     {% assign sorted_tags = (site.tags | sort:0) %}
     {% for tag in sorted_tags %}
 

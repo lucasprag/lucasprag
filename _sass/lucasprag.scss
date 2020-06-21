@@ -10,14 +10,13 @@
 @import './github';
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-family: "Source Sans Pro","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: 18px;
   background: var(--page-bg-color);
   color: var(--page-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alatsi', sans-serif;
   color: var(--title-color);
 }
 
@@ -59,13 +58,36 @@ a:hover {
 .badge-tag {
   color: var(--tag-color);
   background-color: var(--tag-bg-color);
+
+  a {
+    color: var(--tag-color);
+  }
 }
 
-.badge-date {
-  font-size: 16px;
-  color: var(--date-color);
-  background-color: var(--date-bg-color);
+.badge-tag:hover {
+  background-color: var(--tag-bg-color-hover);
 }
+
+.badge-topic {
+  font-size: 16px;
+  color: var(--badge-color);
+  background-color: var(--badge-bg-color);
+}
+
+.badge-topic:hover {
+  background-color: var(--tag-bg-color-hover);
+}
+
+.badge-link {
+  color: var(--badge-color);
+  background-color: var(--badge-bg-color);
+}
+
+.badge-link:hover {
+  color: var(--badge-color);
+  background-color: var(--badge-bg-color-hover);
+}
+
 
 img {
   max-width: 100%;

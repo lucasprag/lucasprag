@@ -1,21 +1,26 @@
-<header id='header' class='header container'>
-  <a class="logo" href="/">
-    lucas arantes
-  </a>
-
-  <nav>
-    {% for item in site.pages %}
-
-    {% unless item.add_to_menu %}
-    {% continue %}
-    {% endunless %}
-
-    {% if item.title %}
-    <a class="nav-link{% if page.url == item.url %} active{% endif %}"
-       href="{% assign expr_1 = item.url | starts_with: '#' %}{% if expr_1 %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">
-      {{ item.title }}
+<header class="header container">
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand badge badge-link py-2 px-3 logo" href="/">
+      lucas arantes
     </a>
-    {% endif %}
-    {% endfor %}
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbar-lucasprag"
+      aria-controls="navbar-lucasprag"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-lucasprag">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item {% if page.url == '/wiki/' %}active{% endif %}">
+          <a class="nav-link py-2 px-3" href="/wiki">Wiki</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>
