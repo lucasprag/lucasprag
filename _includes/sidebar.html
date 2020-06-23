@@ -1,5 +1,11 @@
 <section class="sidebar">
-  <span class="badge badge-topic py-2 px-3 mb-3">
+  <span class="badge badge-topic py-2 px-3">
+    Intro
+  </span>
+
+  {% include intro.html %}
+
+  <span class="badge badge-topic py-2 px-3 mb-3 mt-4">
     Topics
   </span>
 
@@ -20,5 +26,31 @@
     </a>
 
     {% endfor %}
+  </div>
+
+  <span class="badge badge-topic py-2 px-3 mb-3 mt-5">
+    Links
+  </span>
+
+  <div class="sidebar-links">
+    <a href="https://github.com/lucasprag" title="Github">
+      <i class="fab fa-github-square"></i>
+    </a>
+
+    <a href="https://twitter.com/lucasprag" title="Twitter">
+      <i class="fab fa-twitter-square"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/lucasosilva/" title="Linkedin">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://www.goodreads.com/lucasprag" title="Goodreads">
+      <i class="fab fa-goodreads"></i>
+    </a>
+
+    <a href="/feed.xml" title="Feed RSS">
+      <i class="fas fa-rss-square"></i>
+    </a>
   </div>
 </section>

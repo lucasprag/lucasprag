@@ -1,7 +1,6 @@
 ---
 title: Wiki
 layout: page
-add_to_menu: true
 ---
 
 ## Books
