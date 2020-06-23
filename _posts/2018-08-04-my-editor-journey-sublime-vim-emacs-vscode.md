@@ -104,15 +104,3 @@ Also I'm looking forward to hear your opinion and experience about those text ed
 ### UPDATE:
 
 After a few months of publishing this post I went back to neovim because of a number of problems, like vscode getting to 100% CPU constantly (which I heard it doesn't happen anymore) and lots of missing features -- I can write a post about this if want, just comment bellow.
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>

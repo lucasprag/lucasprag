@@ -9,7 +9,6 @@ tags:
 layout: post
 ---
 
-
 I will bring here an approachable solution for building rails applications using some fundamentals of the so-called clean architecture. But, what is it?
 
 # clean architecture
@@ -187,15 +186,3 @@ Keep in mind that there is no silver bullet in programming, but this is for sure
 
 *[This post is also available on DEV.](https://dev.to/lucasprag/use-case-oriented-rails-applications-28jb)*
 
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>

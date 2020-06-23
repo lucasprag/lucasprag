@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to vimL for vimmers
 date: 2019-07-26
-tags: 
+tags:
   - vim
 excerpt: "After some time using vim, you feel the need to customize it a bit more, let's see a few things you can do to start."
 image: /assets/images/posts/neovim.png

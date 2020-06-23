@@ -1,13 +1,11 @@
 ---
-title: How to add columns with a default value to large tables
+title: How to add columns default values to large tables
 date: 2019-11-17
 excerpt: "If you worked with a large database you know that you can't just run an alter table to add a column with a default value, maybe you tried it and it failed -- like me awhile ago \U0001F915 -- but what if you really need to do that? That's what I'm about to tell you in these four simple steps."
 tags:
   - rails
 layout: post
 ---
-
-
 
 If you worked with a large database you know that you can't just run an {% raw %}`alter table`{% endraw %} to add a column with a default value, maybe you tried it and it failed -- like me awhile ago 🤕 --  but what if you really need to do that? That's what I'm about to tell you in these four simple steps:
 
@@ -73,15 +71,3 @@ After that you can remove your code that sets the default value when creating yo
 
 *[This post is also available on DEV.](https://dev.to/lucasprag/how-to-add-columns-with-default-to-large-tables-8mc)*
 
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>
