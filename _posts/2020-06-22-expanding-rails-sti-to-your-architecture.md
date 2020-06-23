@@ -475,7 +475,7 @@ app/operations/
 └── sync_store.rb       # calls method to call API, calls NormalizeStore and SaveStore
 ```
 
-<!--You can find the complete code from this post here.-->
+You can find the complete code from this post [here](https://github.com/lucasprag/expanding-sti).
 
 I hope you enjoyed this post, please add any question, suggestion or anything in the comments below.
 
