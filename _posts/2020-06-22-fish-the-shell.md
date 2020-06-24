@@ -6,7 +6,7 @@ tags:
 layout: post
 ---
 
-One of the greatest changes I made to my set of programming tools was changing from zsh to [fish](https://fishshell.com/) and these are the reasons that drove me to this change:
+One of the greatest changes I've made to my set of programming tools was changing from zsh to [fish](https://fishshell.com/) and these are the reasons that drove me to this change:
 
 ### 1. Abbreviations
 
