@@ -81,19 +81,19 @@ function fish_user_key_bindings
 end
 ```
 
-I really like having both auto completions. 😎
+I really like having both auto complete benefits. 😎
 
 ### Reason why _not_ use it
 
-Fish is intentionally not fully POSIX compliant, which means that a script written for bash will likely not work on fish.
+Fish is intentionally not fully POSIX compliant meaning that a script written for bash will likely not work on fish.
 
-So in order to run a bash script you need to explicitly run it on bash, for example `bash script.sh`
+As a result, in order to run a bash script you need to explicitly run it on bash, for example `bash script.sh`.
 
 This is not a big deal for me compared with the benefits I listed above, but I understand that it can be quite annoying.
 
 ---
 
-[Fish](https://fishshell.com/) is not new, but it can be new to you as it was to me a few years back. If you like to try new programming things, I suggest fish. 🐠
+[Fish](https://fishshell.com/) is not new, but it can be new to you as it was to me. If you like to try new programming things, I suggest fish. 🐠
 
 I hope you enjoyed this post, please add any question, suggestion or anything in the comments below. 👍
 
