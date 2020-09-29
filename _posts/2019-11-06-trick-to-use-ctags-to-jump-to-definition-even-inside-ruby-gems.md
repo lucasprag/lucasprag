@@ -6,7 +6,7 @@ tags:
   - vim
 layout: post
 ---
-If you don't know what is ctags
+If you don't know what ctags is:
 
 > Ctags is a programming tool that generates an index file of names found in source and header files of various programming languages. Depending on the language, functions, variables, class members, macros and so on may be indexed. -- Wikipedia
 
@@ -51,23 +51,9 @@ vendor/bundle
 # gutentags
 
 
-If you don't like run {% raw %}`ctags -R .`{% endraw %} all the time, there is a plugin for vim that runs ctags in the background while you are coding. It's called [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags). All you need to do is install it.
+If you don't like to run {% raw %}`ctags -R .`{% endraw %} all the time, there is a plugin for vim that runs ctags in the background while you are coding. It's called [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags). All you need to do is install it.
 
-
-
-That's it, I hope you enjoyed this little trick to make our lives a bit easier when coding Rails on vim. 👍
+I hope you've enjoyed this little trick to make our lives a bit easier when coding Rails on vim. 👍
 
 *[This post is also available on DEV.](https://dev.to/lucasprag/little-trick-to-use-ctags-to-jump-to-definition-even-inside-gems-like-rails-on-vim-244j)*
 
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>

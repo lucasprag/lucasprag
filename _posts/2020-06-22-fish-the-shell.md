@@ -12,13 +12,15 @@ One of the greatest changes I've made to my set of programming tools was changin
 
 Abbreviations behave like aliases on bash and zsh but instead of only running their respective commands, they also expand and show the full command.
 
-This is useful to let others know what you are doing when pair programming, to give some sense to your history of commands and to not let you forget how to use other shells when using other people's computers. This last one is special to me because I used to have lots of aliases on zsh, but when I had to help a colleague, I'd be lost because I wouldn't remember what `gcam` or `dcup` were exactly.
+This is useful to let others know what you are doing when pair programming, to give some sense to your history of commands and to not let you forget how to use other shells when you're using other people's computers. This last one is special to me because I used to have lots of aliases on zsh, but when I had to help a colleague, I'd be lost because I wouldn't remember what `gcam` or `dcup` were exactly.
 
 Example:
 
 It may look that I'm typing super fast in the gif above -- because of its frames per second rate -- but I'm only typing `fn`, `gs`, `gd`, `ga .`, `gc`, `gp`.
 
 ![Using fish abbreviations, commands expand as I type the abbreviations to let other know what you are doing and keep you give sense to your history.](/assets/images/posts/fish-abbreviations.gif)
+
+Fish also have aliases, but I just don't use them that much in favor of abbreviations.
 
 ### 2. Syntax highlight
 
@@ -60,9 +62,9 @@ Oh my fish also brings to the table a number of [themes](https://github.com/oh-m
 
 ![my custom fish theme is quite simple](/assets/images/posts/fish-oh-my-fish-shell.png)
 
-### 4. Auto complete
+### 4. Autocomplete
 
-The default auto complete behaviour in fish is to add a gray auto completion option as you type commands.
+The default autocomplete behaviour in fish is adding a gray auto completion option as you type commands, then you can use your right arrow key and it autocompletes.
 
 ![default auto complete](/assets/images/posts/fish-autocomplete.png)
 
@@ -70,7 +72,7 @@ But if you, like me, miss the `ctrl+r` history search from bash and zsh, you can
 
 ![fzf auto complete](/assets/images/posts/fish-querying-history.png)
 
-The way to add it is by adding a symbolic link and a function to your fish config, assuming you use fzf.
+The way to add it is by adding a symbolic link and an existing function that comes by default when you install fzf to your fish config, assuming you use fzf.
 
 ```
 ln -s ~/.fzf/shell/key-bindings.fish ~/.config/fish/functions/fzf_key_bindings.fish
@@ -81,7 +83,7 @@ function fish_user_key_bindings
 end
 ```
 
-I really like having both auto complete benefits. 😎
+I really like having both autocomplete benefits. 😎
 
 ### Reason why _not_ use it
 
