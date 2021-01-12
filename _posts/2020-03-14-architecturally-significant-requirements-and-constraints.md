@@ -22,7 +22,7 @@ It raises more questions regarding availability like what happens when a phone i
 
 See that this functional requirement is significant for the architecture, but for example, adding a new type of operation is also a functional requirement, but not architecturally significant.
 
-Finding architecturally significant requirements is hard because they are not always explicit and stakesholders are not always aware of how much some requirements can change the architecture of a system. They are best found during discussions before implementing features since they can change the overall architecture of a system.
+Finding architecturally significant requirements is hard because they are not always explicit and stakeholders are not always aware of how much some requirements can change the architecture of a system. They are best found during discussions before implementing features since they can change the overall architecture of a system.
 
 #### Constraints
 
@@ -32,7 +32,7 @@ They are non-functional requirement like the programming language you are going 
 
 You can see that the nature of these constraints can be different, they can be business or technical constraints.
 
-The interesting part is that sometimes a hard constraint can become much softer if you are able to effectively communicate how it affects the architecture of your system. If the impact of the constraint is high it can raise questions if this constraint is really worthy, but it can only be done if everyone involved understands its impact. This means that all hard constraints need a good reason of implementing it and all stakesholders agree with them.
+The interesting part is that sometimes a hard constraint can become much softer if you are able to effectively communicate how it affects the architecture of your system. If the impact of the constraint is high it can raise questions if this constraint is really worthy, but it can only be done if everyone involved understands its impact. This means that all hard constraints need a good reason for implementing it and all stakeholders agree with them.
 
 For example, if we have a technical constraint of only using ruby, but this other programming language have more advantages on specific aspects that are going to drastically help building your feature, it might be worthy bringing the trade-off of using one versus the other to the table. It's important that everyone is aware of the impact of this constraint and everyone together can make the best decision.
 
@@ -40,5 +40,5 @@ The same happens to business constraints like deadlines or how far should we imp
 
 ---
 
-Being more aware of this concepts can help us reveal them during discussions and effectively communicating the impact of a constraint or a requirement can help all stakesholders better evaluate its value.
+Being more aware of these concepts can help us reveal them during discussions and effectively communicating the impact of a constraint or a requirement can help all stakesholders better evaluate its value.
 
