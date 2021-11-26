@@ -100,7 +100,3 @@ Also I'm looking forward to hear your opinion and experience about those text ed
 
 *[This post is also available on DEV.](https://dev.to/lucasprag/my-editor-journey-sublime-vim-emacs-vscode-19k0)*
 
-
-### UPDATE:
-
-After a few months of publishing this post I went back to neovim because of a number of problems, like vscode getting to 100% CPU constantly (which I heard it doesn't happen anymore) and lots of missing features -- I can write a post about this if want, just comment bellow.
