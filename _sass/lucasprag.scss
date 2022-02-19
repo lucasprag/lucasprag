@@ -1,22 +1,29 @@
-@import './variables';
-@import './header';
-@import './posts';
-@import './post';
-@import './page';
-@import './footer';
-@import './sidebar';
-@import './theme-switch';
-@import './monokai';
-@import './github';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+@import "./variables";
+@import "./header";
+@import "./posts";
+@import "./post";
+@import "./page";
+@import "./footer";
+@import "./sidebar";
+@import "./theme-switch";
+@import "./monokai";
+@import "./github";
 
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   background: var(--page-bg-color);
   color: var(--page-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--title-color);
 }
 
@@ -91,7 +98,6 @@ a:hover {
   color: var(--badge-color);
   background-color: var(--badge-bg-color-hover);
 }
-
 
 img {
   max-width: 100%;

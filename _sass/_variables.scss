@@ -3,7 +3,6 @@ $mobile: 480px;
 $tabletMax: 768px;
 $tablet: 768px;
 
-
 :root {
   --page-color: #494e52;
   --page-bg-color: #ffffff;
@@ -26,8 +25,8 @@ $tablet: 768px;
 }
 
 [data-theme="dark"] {
-  --page-color: #cccccc;
-  --page-bg-color: #181c21;
+  --page-color: #e1e1e1;
+  --page-bg-color: #151618;
 
   --badge-color: #ffffff;
   --badge-bg-color: #377dc4;
