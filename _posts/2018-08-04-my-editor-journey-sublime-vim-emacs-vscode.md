@@ -55,9 +55,9 @@ It took me like a month to understand everything and to work well. I was not hap
 
 Then I saw this video:
 
-
-<iframe class="liquidTag" src="https://dev.to/embed/youtube?args=8kCd4w4kc68" style="border: 0; width: 100%;"></iframe>
-
+<div class="text-center pb-2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8kCd4w4kc68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Wait what? 10 years of love for Emacs undone by a week of VSCode? I have some friends who are happy with vscode too, they strongly recommend it. Ok, let's give it a try.
 
@@ -97,6 +97,12 @@ Vscode plugins I have installed:
 That's my experience with text editors. Today I don't have to debug my editor to make simple things happen and I still can customize it for my needs. Yeah, I'm pretty happy with vscode and maybe you should try it too. I hope it was useful for someone.
 
 Also I'm looking forward to hear your opinion and experience about those text editors. Thanks.
+
+###### UPDATE 2022-02-18:
+
+Still using vscode. Found out that we _can_ debug vscode if needed but most people don't do it because they don't need to (on vscode, go to `Help` > `Toggle Developer Tools`).
+
+My survey/research above was quite shallow. I got some great feedback on this post from [folks using dev.to](https://dev.to/lucasprag/my-editor-journey-sublime-vim-emacs-vscode-19k0). Really appreciate, thanks.
 
 *[This post is also available on DEV.](https://dev.to/lucasprag/my-editor-journey-sublime-vim-emacs-vscode-19k0)*
 

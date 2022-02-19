@@ -1,10 +1,19 @@
 ---
-layout: sidebar
+layout: default
 ---
-<div class="post">
-  <div class="row">
-    <div class="col-12">
-      {{ content }}
+
+<div class="row">
+  <div class="col">
+    <div class="post">
+      <div class="row">
+        <div class="col-12">
+          {{ content }}
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="col-12 col-md-3">
+    {% include sidebar.html %}
   </div>
 </div>
