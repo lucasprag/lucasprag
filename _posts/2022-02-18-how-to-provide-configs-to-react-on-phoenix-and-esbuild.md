@@ -1,6 +1,6 @@
 ---
 title: How to provide configs to React on Phoenix and esbuild
-date: 2021-02-18
+date: 2022-02-18
 tags:
   - elixir
   - phoenix
