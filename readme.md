@@ -1,6 +1,3 @@
-# lucasprag
+Software engineer, father, indie hacker from 🇧🇷 living in 🇨🇦
 
-My personal website: [lucasprag.com](http://lucasprag.com/)
-
-TODO:
-- add feedly button https://feedly.com/factory.html
+Building [FormigaBot](http://formigabot.com). Tech Lead at [Smile.io](https://smile.io/careers). Sharing things I learn at [lucasprag.com](https://lucasprag.com)
