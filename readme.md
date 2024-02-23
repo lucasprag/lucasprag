@@ -1,1 +1,3 @@
-Software Engineer at [Smile.io](https://smile.io/careers). Sharing things I learn at [lucasprag.com](https://lucasprag.com)
+Software Engineer with over 10 years of experience, building side projects with Elixir.
+
+Blog posts on [lucasprag.com](https://lucasprag.com).
