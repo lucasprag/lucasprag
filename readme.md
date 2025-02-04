@@ -1,3 +1,3 @@
-Software Engineer with over 10 years of experience, building side projects with Elixir.
+Working as a Software Engineer for over 10 years, building side projects for fun.
 
-Blog posts on [lucasprag.com](https://lucasprag.com).
+Projects and blog posts on [lucasprag.com](https://lucasprag.com).
